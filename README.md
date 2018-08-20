@@ -8,7 +8,7 @@ Ils ont alors un système de like puis de match et de contact.
 
 2. installer la base de données avec le fichier sql dans /database
 
-3. mettez en place les virtualhosts (le server name doit etre "adopt-un-boss.bwb").
+3. mettez en place les virtualhosts (le serveur name doit etre "adopt-un-boss.bwb").
 
 4. installez les dépendances avec la commande : composer install
  
@@ -23,10 +23,6 @@ Template du fichier  database.json
     "username" : "", 
     "password" : "" 
 }
-
-## Utilisation
-Pour se connecter merci d'utiliser les identifiants suivant : mail:"ld@gmail.com" mdp:"candidat"
-Pour utiliser l'application, vous pouvez vous servir de la page Home, mais aussi des URI /gestion, /profil et /chat.
 
 ## Structure
 L'application s'appuie sur un framework MVCL afin de s'assurer la séparation des tâches.   
